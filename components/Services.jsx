@@ -6,7 +6,7 @@ export default function Services() {
             <div className="container">
                 <div className="section-title">
                     <h2>Services</h2>
-                    <p>"Expert Career Guidance Services offered by CarrerVyas."</p>
+                    <p>Expert Career Guidance Services offered by CarrerVyas.</p>
                 </div>
 
                 <div className="row">

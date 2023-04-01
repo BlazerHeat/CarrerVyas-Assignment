@@ -37,6 +37,7 @@ export default function Home() {
       <Footer />
 
       <Script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+      <Script src="/assets/vendor/jquery/jquery.min.js" />
     </>
   );
 }
