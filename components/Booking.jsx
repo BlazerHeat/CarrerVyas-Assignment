@@ -12,7 +12,7 @@ export default function Booking() {
 
                 <div className="row">
                     <Card
-                        id={'1'}
+                        id="card_1"
                         imgUrl={'/assets/img/team/team-1.jpg'}
                         name={'Walter Luis'}
                         desc={
@@ -20,7 +20,7 @@ export default function Booking() {
                         }
                     />
                     <Card
-                        id={'2'}
+                        id="card_2"
                         imgUrl={'/assets/img/team/team-2.jpg'}
                         name={'Sarah Luis'}
                         desc={
@@ -28,7 +28,7 @@ export default function Booking() {
                         }
                     />
                     <Card
-                        id={'3'}
+                        id="card_3"
                         imgUrl={'/assets/img/team/team-3.jpg'}
                         name={'Alex Luis'}
                         desc={
@@ -36,7 +36,7 @@ export default function Booking() {
                         }
                     />
                     <Card
-                        id={'4'}
+                        id="card_4"
                         imgUrl={'/assets/img/team/team-4.jpg'}
                         name={'Anna Luis'}
                         desc={
