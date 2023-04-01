@@ -27,7 +27,12 @@ export default function Card({ imgUrl, name, desc, id }) {
                 <div className="member-info">
                     <h4>{name}</h4>
                     <span style={{ fontSize: 16 }}>{desc}</span>
-                    <button type="button" className="btn btn-primary mt-4" onClick={() => $('#' + id).modal('show')}>
+                    <button
+                        type="button"
+                        className="btn btn-primary mt-4"
+                        style={{ zIndex: 100 }}
+                        onClick={() => $('#' + id).modal('show')}
+                    >
                         <i className="bi bi-person-check" style={{ marginRight: 5 }}></i>Book a Session
                     </button>
                 </div>
