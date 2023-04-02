@@ -47,11 +47,7 @@ export default function Modal({ id, name }) {
                         <h5 className="modal-title" id="exampleModalLabel">
                             Booking a Session with {name}
                         </h5>
-                        <button
-                            type="button"
-                            className="btn btn-sm btn-danger"
-                            onClick={() => $('#' + id).modal('hide')}
-                        >
+                        <button type="button" className="btn btn-sm btn-danger" data-bs-dismiss="modal">
                             X
                         </button>
                     </div>
@@ -139,11 +135,7 @@ export default function Modal({ id, name }) {
                                 ></textarea>
                             </div>
                             <div className="modal-footer pb-0">
-                                <button
-                                    type="button"
-                                    className="btn btn-danger"
-                                    onClick={() => $('#' + id).modal('hide')}
-                                >
+                                <button type="button" className="btn btn-danger" data-bs-dismiss="modal">
                                     Close
                                 </button>
                                 <button type="submit" className="btn btn-success" disabled={submitted || loading}>

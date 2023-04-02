@@ -16,19 +16,19 @@ export default function Footer() {
                 </div>
                 <div className="social-links text-center text-md-end pt-3 pt-md-0">
                     <a href="#" className="twitter">
-                        <i className="bx bxl-twitter"></i>
+                        <i className="bi bi-twitter"></i>
                     </a>
                     <a href="#" className="facebook">
-                        <i className="bx bxl-facebook"></i>
+                        <i className="bi bi-facebook"></i>
                     </a>
                     <a href="#" className="instagram">
-                        <i className="bx bxl-instagram"></i>
+                        <i className="bi bi-instagram"></i>
                     </a>
                     <a href="#" className="google-plus">
-                        <i className="bx bxl-skype"></i>
+                        <i className="bi bi-skype"></i>
                     </a>
                     <a href="#" className="linkedin">
-                        <i className="bx bxl-linkedin"></i>
+                        <i className="bi bi-linkedin"></i>
                     </a>
                 </div>
             </div>
